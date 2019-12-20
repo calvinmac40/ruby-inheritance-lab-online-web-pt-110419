@@ -9,8 +9,3 @@ class User
   
 end
 
-@@all = [] 
-
-def initialize
-  @@all << self
-end
