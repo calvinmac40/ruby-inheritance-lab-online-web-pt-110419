@@ -8,3 +8,9 @@ class User
   end
   
 end
+
+@@all = [] 
+
+def initialize
+  @@all << self
+end
